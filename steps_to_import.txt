@@ -1,0 +1,23 @@
+=> Create a repo in Github under NM org
+=> Clone that repo local workspace through command prompt (Git Bash/shell) by using below command
+      
+      git clone repo_url
+      
+=> Then Copy the entire code from TFS to the cloned repo
+=> From git shell execute below commands
+    
+    
+    # For Staging the data
+      git add .
+    
+    # To add under local git repo control
+      
+      git commit -a -m "Initial_commit_message"
+      =>It will ask for username and Password
+    
+    # To push the changes to remote repo
+      git push origin master
+      
+      Now you will have the data present in github
+    
+    
